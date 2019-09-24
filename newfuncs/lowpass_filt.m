@@ -1,0 +1,6 @@
+function lowpassFilt = lowpass_filt(Fs, Fp, N)
+% design a low-pass filter
+lowpassFilt = dsp.LowpassFilter('DesignForMinimumOrder',false, ...
+    'FilterOrder',N,'PassbandFrequency',Fp,'SampleRate',Fs,...
+    'PassbandRipple',0.01, 'StopbandAttenuation',80);
+end
