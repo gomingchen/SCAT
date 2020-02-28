@@ -11,7 +11,7 @@ function time_in_us = amp_lat_trading(cc, ra, ALT_coef)
 kk = find(abs(yu-ra)<0.01);
 
 thd = max(yu(kk(1):end))*ra;
-[amps,~] = findpeaks(yu(kk(1):end), 'NPeaks', 2, 'MinPeakHeight',thd);
+[amps,locs] = findpeaks(yu(kk(1):end), 'NPeaks', 2, 'MinPeakHeight',thd);
 
 if length(amps) == 2
     % make sure the peaks found are true peak values of pulse and echo
