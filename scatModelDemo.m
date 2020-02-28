@@ -7,7 +7,8 @@ load config_halfkHzStep.mat
 
 %%% Generate pulse-echo pair with two glints
 dist2tg = 1; % distance between sound source and target, in meters
-ts = generate_sigs_with_delay_multiglints(dist2tg, 30);
+glintDelay = 30; % the delay between two glints in one target, in microsecond
+ts = generate_sigs_with_delay_multiglints(dist2tg, glintDelay);
 Fs = ts.fs;
 
 %%% Construct wav parameter structure
