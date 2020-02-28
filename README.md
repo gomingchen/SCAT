@@ -23,7 +23,9 @@ Spectrogram correlation and transformation model inspired by echolocating bats' 
  This is an extension of code from Jason Gaudette (link: https://github.com/gaudetteje/biscat). Please also see more references and short development history of this model from the above link
  
  # How to run the code?
- First run sandbox.m to add all necessary subfolders to the current MATLAB path, then run freqHopping.m
+ First run sandbox.m to add all necessary subfolders to the current MATLAB path
+ * then run freqHopping.m to demonstrate the part of SCAT model that can exclude the "phantom" echoes
+ * run scatModelDemo to demonstrate the main part of SCAT model
  # Contact
  Chen Ming (chen_ming@brown.edu)
 
