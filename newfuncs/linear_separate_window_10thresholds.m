@@ -178,7 +178,9 @@ for i = 1:N
     
     
     %%% Account for amplitude latency trading effect
-    e_ind = e_ind+abs(floor(smpl_of_ALT));
+    if ~isfield(wavParam, 'ALToff')
+        e_ind = e_ind+abs(floor(smpl_of_ALT));
+    end
     
 
     if LE ~= 0
