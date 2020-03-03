@@ -18,8 +18,7 @@ end
 %%% Find the delay between target and a receiver (could be a ear in
 %%% binaural setting or a bat if it's treated as one receiver)
 
-[~, edges] = histcounts(d1(:,1),15);
-Xdelay = edges(1)/ts.fs*1E6; % leading edge
+Xdelay = findOverallDelay(wavPS);
 
 [~, col] = find(isnan(d1));
 
