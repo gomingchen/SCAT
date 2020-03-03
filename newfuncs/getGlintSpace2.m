@@ -1,4 +1,4 @@
-function [delayNN, ip_L, Fc] = getGlintSpace2(cfg, ts, wavPS)
+function [Xdelay, delayNN, ip_L, Fc] = getGlintSpace2(cfg, ts, wavPS)
 %%% Input the config file and time series of the broadcast-echo duo and get
 %%% the delay in microseconds between two glints
 figure
@@ -14,6 +14,12 @@ for t = 1:10
     d1(:,t) = firstGapL;
     Mat(t,:) = echoL;
 end
+
+%%% Find the delay between target and a receiver (could be a ear in
+%%% binaural setting or a bat if it's treated as one receiver)
+
+[~, edges] = histcounts(d1(:,1),15);
+Xdelay = edges(1)/ts.fs*1E6; % leading edge
 
 [~, col] = find(isnan(d1));
 
