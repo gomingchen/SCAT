@@ -32,7 +32,7 @@ wavStructParam.ALT = -25; % Coefficient of amplitude latency trading effect, -25
 triangularNetwork_empty(Fc);
 u = 0;
 if length(ipL)>1
-    [fL, sL] = hearcellspreaduniversal_2e_nulls_half(Fc, ipL, 'r','-r');
+    [fL, sL] = triangularNetwork(Fc, ipL, 'r','-r');
     u = 1;
 end
 title('Triangular Network');
