@@ -29,7 +29,7 @@ wavStructParam.ALT = -25; % Coefficient of amplitude latency trading effect, -25
 [deL1, ipL, Fc] = getGlintSpace2(cfg, ts, wavStructParam); % in microseconds
 
 %%% Plot the notches onto the network
-hearcellspread_empty_toomanychannels(Fc);
+triangularNetwork_empty(Fc);
 u = 0;
 if length(ipL)>1
     [fL, sL] = hearcellspreaduniversal_2e_nulls_half(Fc, ipL, 'r','-r');
