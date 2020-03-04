@@ -28,7 +28,7 @@ Spectrogram correlation and transformation (SCAT) model, an efficient signal pro
  # How to run the code?
  First run sandbox.m to add all necessary subfolders to the current MATLAB path
  * then run freqHopping.m to demonstrate the part of SCAT model that can exclude the "phantom" echoes
- * run scatModelDemo to demonstrate the main part of SCAT model
+ * run scatModelDemo.m to demonstrate the main part of SCAT model
  # Contact
  Chen Ming (chen_ming@brown.edu)
 
