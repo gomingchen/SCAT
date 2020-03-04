@@ -26,7 +26,7 @@ wavStructParam.SepbwBRand1stEchoinSmpls = 8*500; % sepearation time between broa
 wavStructParam.color = 'r'; % color setting of the dechirped image.
 wavStructParam.ALT = -25; % Coefficient of amplitude latency trading effect, -25 microseconds per dB, must be negative
 %%% Find the dechirped image
-[~, deL1, ipL, Fc] = getGlintSpace2(cfg, ts, wavStructParam); % in microseconds
+[deL1, ipL, Fc] = getGlintSpace2(cfg, ts, wavStructParam); % in microseconds
 
 %%% Plot the notches onto the network
 hearcellspread_empty_toomanychannels(Fc);
