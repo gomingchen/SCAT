@@ -1,5 +1,5 @@
 # SCAT
-Spectrogram correlation and transformation model inspired by echolocating bats' auditory system
+Spectrogram correlation and transformation (SCAT) model, an efficient signal processing method inspired by echolocating bats' auditory system
 # Directory Contents
 ## files
 * sandbox.m -- add the subfolders into the current path of MATLAB
