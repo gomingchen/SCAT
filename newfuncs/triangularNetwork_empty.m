@@ -1,5 +1,5 @@
 
-function hearcellspread_empty_toomanychannels(Fc)
+function triangularNetwork_empty(Fc)
 
 st_frq = Fc(1)/1E3; % in kHz
 e_frq = Fc(end)/1E3; % in kHz
