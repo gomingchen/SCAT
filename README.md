@@ -19,8 +19,9 @@ Spectrogram correlation and transformation (SCAT) model, an efficient signal pro
 ## Highlight of SCAT model: amplitude latency trading (ALT) effect
  SCAT model mimicks the auditory system of big brown bats. By adding ALT effect, the notches in dechirped image are magnified and easier to be found.
  
-![](/figures/DechirpedImage-1.tif)
-![](/figures/DechirpedImage-2.tif)
+![](/figures/DechirpedImage-1.png)
+
+![](/figures/DechirpedImage-2.png)
  
  This is an extension of code from Jason Gaudette (link: https://github.com/gaudetteje/biscat). Please also see more references and short development history of this model from the above link
  
