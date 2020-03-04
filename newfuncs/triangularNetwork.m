@@ -1,4 +1,4 @@
-function [firstCol, secCol] = hearcellspreaduniversal_2e_nulls_half(Fc, I, cspec1, spec2)
+function [firstCol, secCol] = triangularNetwork(Fc, I, cspec1, spec2)
 %%% This function for unequal spacing
 %%% Modified by treating the dimension of Fc as a parameter
 %%% inputs: step, width of freq band, in kHz
