@@ -3,7 +3,7 @@ Spectrogram correlation and transformation (SCAT) model, an efficient signal pro
 # Directory Contents
 ## files
 * sandbox.m -- add the subfolders into the current path of MATLAB
-* freqHopping.m -- the main program to run
+* freqHopping.m -- run this program to demonstrate frequency hopping.
 * scatModelDemo.m -- the main program to run through the SCAT model, outputs three figures. 1. the output of filterbank; 2. the dechirped image; 3. the triangular network
 
 ## subfolders:
