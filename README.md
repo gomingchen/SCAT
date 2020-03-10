@@ -1,5 +1,5 @@
 # SCAT
-Spectrogram correlation and transformation (SCAT) model, an efficient signal processing method inspired by echolocating bats' auditory system. By inputing a pulse-echo pair, SCAT model runs the pair through a gammatone filterbank to get the time-frequency representations of the signal in parallel frequency channels.
+Spectrogram correlation and transformation (SCAT) model, an efficient signal processing method inspired by echolocating bats' auditory system. SCAT model runs a pulse-echo pair through a gammatone filterbank to get the time-frequency representations of the signal in parallel frequency channels as the first step.
 
 ![](/figures/filterbankOutput.png)
 
