@@ -17,7 +17,7 @@ Spectrogram correlation and transformation (SCAT) model, an efficient signal pro
  - wavParameters - Contains the wavParam structures that will be used in function: linear_...
  
 ## Highlight of SCAT model: amplitude latency trading (ALT) effect
- SCAT model mimicks the auditory system of big brown bats. By adding ALT effect, the notches in dechirped image are magnified and easier to be found.
+ SCAT model mimicks the auditory system of big brown bats. By adding ALT effect, the notches in dechirped echo are magnified and easier to be found.
  
 ![](/figures/DechirpedImage-1.png)
 
