@@ -3,7 +3,7 @@ Spectrogram correlation and transformation (SCAT) model, an efficient signal pro
 
 ![](/figures/filterbankOutput.png)
 
-Then SCAT analyses each channel to get the time delay of target, and the geometry information of the target, i.e., fine delay between glints (reflecting points) in the target. 
+Then SCAT analyses each channel to get the time delay of target, and the geometry information of the target, i.e., fine delay between glints (reflecting points) in the target. By adding up information from all frequency channels, SCAT model can eventually make the best estimate of the two delays mentioned above.
 
 # Directory Contents
 ## files
