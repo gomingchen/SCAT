@@ -1,5 +1,10 @@
 # SCAT
-Spectrogram correlation and transformation (SCAT) model, an efficient signal processing method inspired by echolocating bats' auditory system
+Spectrogram correlation and transformation (SCAT) model, an efficient signal processing method inspired by echolocating bats' auditory system. By inputing a pulse-echo pair, SCAT model runs the pair through a gammatone filterbank to get the time-frequency representations of the signal in parallel frequency channels.
+
+![](/figures/filterbankOutput.png)
+
+Then SCAT analyses each channel to get the time delay of target, and the geometry information of the target, i.e., fine delay between glints (reflecting points) in the target. 
+
 # Directory Contents
 ## files
 * sandbox.m -- add the subfolders into the current path of MATLAB
@@ -16,7 +21,9 @@ Spectrogram correlation and transformation (SCAT) model, an efficient signal pro
  - newfuncs - functions created after initial version from Jason
  - wavParameters - Contains the wavParam structures that will be used in function: linear_...
  
-## Highlight of SCAT model: amplitude latency trading (ALT) effect
+
+ 
+# Highlight of SCAT model: amplitude latency trading (ALT) effect
  SCAT model mimicks the auditory system of big brown bats. By adding ALT effect, the notches in dechirped echo are magnified and easier to be found.
  
 ![](/figures/DechirpedImage-1.png)
