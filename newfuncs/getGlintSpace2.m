@@ -19,11 +19,13 @@ end
 %%% binaural setting or a bat if it's treated as one receiver)
 
 [~, col] = find(isnan(d1));
+[~, ia, ~] = unique(col);
 
-if col(1)>=4
-    colstart = col(1);
+%%% rule out the possibility that there is only one NaN in column col(1)
+if ia(1) == 1
+    colstart = col(1) + 1;
 else
-    colstart = col(1)+1;
+    colstart = col(1);
 end
 
 ip_L = findnotches(d1, colstart);
