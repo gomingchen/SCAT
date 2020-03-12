@@ -40,4 +40,6 @@ Then SCAT analyses each channel to get the time delay of target, and the geometr
  Chen Ming (chen_ming@brown.edu)
  
  I am a postdoc at Neuroscience department, Brown University. I work with Prof. James Simmons. Please feel free to reach out if you have questions or suggestions.
+ 
+ I am writing a journal paper that describes this model. Please check back later to get a link of the paper. Also, I am constantly updating the model. Please check back and download the latest one.
 
