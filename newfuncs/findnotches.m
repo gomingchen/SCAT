@@ -15,6 +15,13 @@ if ~isempty(dg)
     ip_s = gg1(dg);
     ip_e = gg1(dg+1);
     ipL = round((ip_s + ip_e)/2);
+    
+    %%% eliminate phantom notches
+    dL = diff(ipL);
+    nk = find(dL<0.5*mode(dL));
+    ipL(nk) = [];
+    %%%
+    
 else
     ipL = NaN;
     disp('There are no notches detected. Please use different threhold or check your data');
