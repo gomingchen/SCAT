@@ -9,3 +9,4 @@ addpath(sprintf('%s\\neur_discharge', pwd()));
 addpath(sprintf('%s\\neur_temporal', pwd()));
 addpath(sprintf('%s\\newfuncs', pwd()));
 addpath(sprintf('%s\\newfuncs\\newsigs', pwd()));
+addpath(sprintf('%s\\preCalculated', pwd()));
