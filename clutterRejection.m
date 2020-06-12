@@ -66,7 +66,7 @@ Fc = 20E3:2E3:100E3;
 des = 1:3:161;
 opind = 4*ones(Necho,1);
 A = zeros(161,Necho);
-for th = 2:10
+for th = 2:8
 
     for m = 1:Necho
         A(:,m) = d1(:,m,th)/500; 
