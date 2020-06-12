@@ -64,7 +64,7 @@ function threeDplotfunc_cr_dolphin(A, q, des, step, step_thin, nbins, ipL,sep,Fc
     %Fct = 20E3:.5E3:100E3; % leave the Fc for triangular plot uninterrupted
     NL = length(step:step:80E3);
     
-    [p, ~, C, xc, yc] = hearcellspreaduniversal_upright_fig_just_triangle(Fco, mean_ip_L, xval_tn);
+    [p, ~, C, xc, yc] = haircellspreaduniversal_upright_fig_just_triangle(Fco, mean_ip_L, xval_tn);
  
 
     %[B,~] = histc(C,unique(C));
