@@ -11,7 +11,7 @@ function threeDplotfunc_cr_bat(A, q, des, step, index,ip1, ipL,sep,Fco)
     mean_ip_L = ipL;
     NL = length(step:step:80E3);
     
-    [p, ~, C, xc, yc] = hearcellspreaduniversal_upright_fig_just_triangle(Fco, mean_ip_L, xval_tn);
+    [p, ~, C, xc, yc] = haircellspreaduniversal_upright_fig_just_triangle(Fco, mean_ip_L, xval_tn);
  
     if ismember(q,index)
     Y1 = Fco(1)/1E3;
