@@ -87,7 +87,7 @@ Nn_t(w,:) = threeDplotfunc_cr(A, w, des, intvl,intvl_thin, Nbin, ip_L{w}, Sep, p
 
 end
 
-adjfig_3dscat(th);
+adjfig_3dscatCR(th);
 
 end
 
