@@ -43,7 +43,7 @@ for t = 1:wavPS.NT
     [echoL,~] = linear_separate_window_10thresholds(wavPS);
     %d1(t,:,) = firstGapL;
     Mat(t,:) = echoL;
-    title(sprintf('No. %d threshold',t));
+    %title(sprintf('No. %d threshold',t));
     
 end
 
