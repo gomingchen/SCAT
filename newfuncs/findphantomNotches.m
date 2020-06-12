@@ -26,9 +26,9 @@ for j = 1:Nthre
         % the detection layers
         [N,edges] = histcounts(R(:,j),10);
         [N2,edges2] = histcounts(R(:,j),Nbin(i)); % for plot purposes
-        [~,I] = max(N2);
+        [~,I] = max(N);
         %Max = floor((edges(I) + edges(I+1))/2);
-        Max = edges2(I+1);
+        Max = edges(I+1);
         
         
         lat_th(i) = Max;
