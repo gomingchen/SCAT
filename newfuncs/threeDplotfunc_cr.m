@@ -163,29 +163,7 @@ function Nn_tot = threeDplotfunc_cr(A, q, des, step, step_thin, nbins, ipL,sep, 
     
     %%% histogram of glint spacing on xz plane. 
     
-%     if length(edges2)>2
-%        edges2(1) = edges2(1)-0.5;
-%        edges2(end) = edges2(end)+.5;
-%     else
-%         edges2(1) = edges2(1)-0.5;
-%     end
-    
-%     for ii = 1:length(edges2)-1
-%         v = a;
-%         X = [xval_tn-v(ii); xval_tn; xval_tn; xval_tn-v(ii)];
-%         Y = 100.*ones(4,1);
-%         Z = [edges2(ii); edges2(ii); edges2(ii+1); edges2(ii+1)];
-%         pr = patch(X,Y,Z,'r');
-%         pr.FaceAlpha = 0.3;
-%         
-%     end
-    
-    % histogram of the distribution of total nodes
-    
-    % nodes from actual notches    
-%     Nfn = floor(xc/(step*1E-3)); % step was in Hz
-%     yfn = zeros(1,NL);
-%     yfn(Nfn) = yc;
+
     edges = 0:step_thin/1E3:80;
     [yfn,bb] = histcounts(C, edges); 
     
