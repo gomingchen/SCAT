@@ -11,6 +11,13 @@ Then SCAT analyses each channel to get the time delay of target, and the geometr
 * freqHopping.m -- run this program to demonstrate frequency hopping.
 * scatModelDemo.m -- the main program to run through the SCAT model, outputs three figures. 1. the output of filterbank; 2. the dechirped image; 3. the triangular network
 
+*(updated on 6/12/2020)*:
+* bat2HFM.m -- the main code to demonstrate the module in SCAT model for processing bat 2-harmonic FM sweeps.
+* clutterRejection.m -- the code to demo the ALT could further delay the arrival of off-axis clutter echoes.
+* dolClick.m -- SCAT model can also be used to process dolphin clicks.
+* binauralTracking.m -- An addition of binaural tracking was added based on SCAT model. It's a demo for how a active sonar model can find the right target.
+
+Each of the four programs will take a few minutes to run.
 ## subfolders:
  - coch_filters - filterbank functions to model basilar membrane motion
  - config_files - Supplementary configuration data files
