@@ -280,7 +280,7 @@ end
     for t = 1:10
         wavStructParam.NoT = t;
         wavStructParam.simStruct = SIMH;
-        [echoR, firstGapR] = linear_separate_window_10thresholds(wavStructParam);
+        [echoH, firstGapH] = linear_separate_window_10thresholds(wavStructParam);
         %[echoH, firstGapH] = linear_separate_window_10thresholds(SIMH, t, Fs, 0.5E-3, 1E-3, 1.8E-3, 15E-3, 5000, 'const', 5, 'b');
         d1(:,t) = firstGapH;
         Mat(t,:) = echoH;
