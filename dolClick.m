@@ -50,7 +50,7 @@ for t = 1:wavPS.NT
     %title(sprintf('No. %d threshold',t));
     %%%
     wavPS.NoT = t; % number of thresholds that will be used
-    [echoL,~] = linear_separate_window_10thresholds(wavPS);
+    [echoL,~] = linear_separate_window_10thresholds2(wavPS);
     Mat(t,:) = echoL;
     
 end
