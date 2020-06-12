@@ -40,7 +40,7 @@ Necho = 7;
 for t = 1:wavPS.NT
 
     wavPS.NoT = t; % number of thresholds that will be used
-    [echoL,~] = linear_separate_window_10thresholds(wavPS);
+    [echoL,~] = linear_separate_window_10thresholds2(wavPS);
     %d1(t,:,) = firstGapL;
     Mat(t,:) = echoL;
     %title(sprintf('No. %d threshold',t));
