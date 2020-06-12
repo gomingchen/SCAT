@@ -45,7 +45,7 @@ function Nn_tot = threeDplotfunc_cr(A, q, des, step, step_thin, nbins, ipL,sep, 
     %mean_ip_L,1, xval_tn); % for previous sequence
     Fct = 20E3:.5E3:100E3; % leave the Fc for triangular plot uninterrupted
     NL = length(step:step:80E3);
-    [p, ~, C, xc, yc] = hearcellspreaduniversal_upright_fig_just_triangle(Fct, mean_ip_L, xval_tn);
+    [p, ~, C, xc, yc] = haircellspreaduniversal_upright_fig_just_triangle(Fct, mean_ip_L, xval_tn);
     
     %[B,~] = histc(C,unique(C));
 
