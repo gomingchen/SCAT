@@ -305,6 +305,7 @@ end
 end
     vec_all(v,:) = vec; % the last one
     coordear_all(v,:) = [coord(1,:) coord(2,:)];
+    plottrajectory;
     %%% fly the bat to the target after turning/ or receiving the echo from the
     %%% target after the bat is facing the right target
 % 1. get the echo with two glints for example with time interval 100us
