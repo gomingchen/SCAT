@@ -37,7 +37,7 @@ for j = 1:Nthre
         set(gca, 'FontName', 'times', 'FontSize', 12);
         %set(gca, 'XTick', 0:2500:22500, 'XTickLabel',0:5:41);
         set(gca,'XTick', 1000:1000:8000,'XTickLabel', 7:5:(7+5*6));
-        ylabel('frequency (kHz)');
+        ylabel('frequency (Hz)');
         xlabel('time (ms)');
         % plot the distribution to check the latency threshold
         %bar(edges2(1:end-1)+(edges2(2)-edges2(1))/2-mnd+1E3*i, N2/max(N2)*15, 'FaceColor','b','EdgeColor','b');
