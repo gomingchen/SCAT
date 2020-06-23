@@ -82,6 +82,7 @@ for p = 1:Necho
     end
     difP = diff(sort_ip);
     [con, con_edges] = histcounts(difP, 3);
+    warning('off','all');
     M = mode(difP);
     if (con_edges(4) - con_edges(1))<7 || min(difP)>.8*M
         v = 0;
