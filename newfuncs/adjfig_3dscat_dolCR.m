@@ -7,7 +7,7 @@ set(gca, 'ZTick', [0, 10:20:110], 'ZTickLabel', {'   ', '100', ' 33', ' 20', ' 1
 
 
 set(gca, 'FontName', 'arial', 'FontSize', 12);
-set(gca, 'XTick', 0:2:4, 'XTickLabel', '');
+set(gca, 'XTick', 0:2:4, 'XTickLabel', {' 7', '12'});
 xlim([-1, 3]);
 view(-14,58);
 grid on
