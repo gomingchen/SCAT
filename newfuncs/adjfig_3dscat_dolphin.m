@@ -11,7 +11,7 @@ hold off
 % set(gca,'ZScale', 'log');
 % zlim([2,50]);
 %set(gca,'ZTick',[5 10 20 50 100 125],'ZTickLabels', {'200','100','50', '20', '10', '8'})
-set(gca, 'ZTick', []);
+set(gca,'ZTick',[5 10 20 50 100 125],'ZTickLabels', {'200','100','50', '20', '10', '8'})
 
 set(gca, 'FontName', 'Times', 'FontSize', 12);
 set(gca, 'XTick', 0:2:20, 'XTickLabel', 6:5:(6+5*10));
