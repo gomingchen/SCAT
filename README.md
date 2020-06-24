@@ -16,7 +16,9 @@ Then SCAT analyses each channel to get the time delay of target, and the geometr
 * clutterRejection.m -- the code to demo the ALT could further delay the arrival of off-axis clutter echoes.
 * dolClick.m -- SCAT model can also be used to process dolphin clicks.
 * binauralTracking.m -- An addition of binaural tracking was added based on SCAT model. It's a demo for how a active sonar model can find the right target.
+
 *(updated on 6/23/2020)*:
+* clutterRejection_dolClick.m -- Clutter rejection example for dolphin clicks
 
 
 Each of the four programs will take a few minutes to run.
