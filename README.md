@@ -18,7 +18,7 @@ Then SCAT analyses each channel to get the time delay of target, and the geometr
 * binauralTracking.m -- An addition of binaural tracking was added based on SCAT model. It's a demo for how a active sonar model can find the right target.
 
 *(updated on 6/23/2020)*:
-* ClutterRejection_dolClick.m -- Clutter rejection example for dolphin clicks
+* clutterRejection_dolClick.m -- Clutter rejection example for dolphin clicks
 
 
 Each of the four programs will take a few minutes to run.
