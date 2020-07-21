@@ -20,6 +20,11 @@ Then SCAT analyses each channel to get the time delay of target, and the geometr
 *(updated on 6/23/2020)*:
 * clutterRejection_dolClick.m -- Clutter rejection example for dolphin clicks
 
+## PLoS Comp. Biol. submission:
+* bat2HFM.m -- the main code to demonstrate the module in SCAT model for processing bat 2-harmonic FM sweeps.
+* clutterRejection.m -- the code to demo the ALT could further delay the arrival of off-axis clutter echoes.
+* dolClick.m -- SCAT model can also be used to process dolphin clicks.
+* clutterRejection_dolClick.m -- Clutter rejection example for dolphin clicks
 
 Each of the four programs will take a few minutes to run.
 ## subfolders:
