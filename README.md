@@ -6,6 +6,15 @@ Spectrogram correlation and transformation (SCAT) model, an efficient signal pro
 Then SCAT analyses each channel to get the time delay of target, and the geometry information of the target, i.e., fine delay between glints (reflecting points) in the target. By adding up information from all frequency channels, SCAT model can eventually make the best estimate of the two delays mentioned above.
 
 # Directory Contents
+
+## PLoS Comp. Biol. submission:
+* bat2HFM.m -- the main code to demonstrate the module in SCAT model for processing bat 2-harmonic FM sweeps.
+* clutterRejection.m -- the code to demo the ALT could further delay the arrival of off-axis clutter echoes.
+* dolClick.m -- SCAT model can also be used to process dolphin clicks.
+* clutterRejection_dolClick.m -- Clutter rejection example for dolphin clicks
+
+Each of the four programs will take a few minutes to run.
+
 ## files
 * sandbox.m -- add the subfolders into the current path of MATLAB
 * freqHopping.m -- run this program to demonstrate frequency hopping.
@@ -20,13 +29,7 @@ Then SCAT analyses each channel to get the time delay of target, and the geometr
 *(updated on 6/23/2020)*:
 * clutterRejection_dolClick.m -- Clutter rejection example for dolphin clicks
 
-## PLoS Comp. Biol. submission:
-* bat2HFM.m -- the main code to demonstrate the module in SCAT model for processing bat 2-harmonic FM sweeps.
-* clutterRejection.m -- the code to demo the ALT could further delay the arrival of off-axis clutter echoes.
-* dolClick.m -- SCAT model can also be used to process dolphin clicks.
-* clutterRejection_dolClick.m -- Clutter rejection example for dolphin clicks
 
-Each of the four programs will take a few minutes to run.
 ## subfolders:
  - coch_filters - filterbank functions to model basilar membrane motion
  - config_files - Supplementary configuration data files
