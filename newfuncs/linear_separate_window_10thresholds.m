@@ -54,17 +54,18 @@ for i = 1:N
     k = find(wf<0);
     wf(k) = 0;
     rect_wf = wf;
-    MAX = max(rect_wf); % so you always have to ensure the broadcast is stronger than the waveform
+    %MAX = max(rect_wf); % so you always have to ensure the broadcast is stronger than the waveform
 
 
-    tt = find(rect_wf<0.01*MAX);
-    rect_wf(tt) = 0.01*MAX;
+    %tt = find(rect_wf<0.01*MAX);
+    %rect_wf(tt) = 0.01*MAX;
     
     sm_wf = lowpassFilt(rect_wf);
     
     [pmax, ~] = max(sm_wf(1:sepbwBRand1stEcho));
     uu = find(sm_wf<0);
-    sm_wf(uu) = 0.01*pmax;
+    %sm_wf(uu) = 0.01*pmax;
+    sm_wf(uu) = 0;
     
     [pmin, ~] = min(sm_wf);
     SM_WF = (sm_wf - pmin)*100./(pmax-pmin);
