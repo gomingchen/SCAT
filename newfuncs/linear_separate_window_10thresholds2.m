@@ -60,8 +60,7 @@ for i = 1:N
     wf(k) = 0;
     rect_wf = wf;
   
-    tg = find(rect_wf<0);
-    rect_wf(tg) = 0;
+
     sm_wf = lowpassFilt(rect_wf);
     hh = find(sm_wf<0);
     sm_wf(hh) = 0;
