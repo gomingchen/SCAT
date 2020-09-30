@@ -1,5 +1,5 @@
 
-function [sd, sgl,traces_echo] = linear_separate_window_10thresholds(wavParam)
+function [sd, sgl,traces_echo] = linear_separate_window_10thresholds2(wavParam)
 % This function is to find the intercepts between one threshold value and
 % pulse-echo pair.
 
